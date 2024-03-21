@@ -1,19 +1,6 @@
-# picogram
-small api library for telegram bot api
-
-
-Installation:
-```shell
-pip install picogram
-```
-
-
-Example:
-
-```python
 from picogram import Bot
 
-bot = Bot(token='your_token')
+bot = Bot(token='your_token_here')
 
 
 @bot.message()
@@ -23,4 +10,3 @@ def start_message(message: dict):
 
 if __name__ == '__main__':
     bot.run_polling()
-```

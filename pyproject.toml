@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "picogram"
+version = "0.0.1"
+authors = [
+  { name="Shahobiddin Anorboyev", email="anorprogrammer1127@gmail.com" },
+]
+maintainers = [
+  { name="Shahobiddin Anorboyev", email="anorprogrammer1127@gmail.com" },
+]
+keywords = ["telegram", "bot", "api", "library", "small"]
+dependencies = [
+    "requests",
+]
+description = "small api library for telegram bot api"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/anorprogrammer/picogram"
+Issues = "https://github.com/anorprogrammer/picogram/issues"
+
+
